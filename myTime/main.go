@@ -8,7 +8,7 @@ import (
 func main() {
 
 	fmt.Println("WElocme To the Study of GOlangy!!!")
-	PresentTime:= time.Now() 
+	PresentTime:= time.Now()
 	fmt.Println(PresentTime)
 	fmt.Println(PresentTime.Format("01-02-2006 15:04:05 Monday"))
 	createdDate:= time.Date(2020, time.December,12,24,23,0,0,time.UTC)
